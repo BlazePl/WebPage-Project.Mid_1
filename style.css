@@ -1,13 +1,22 @@
 body {
-    background-color: rgb(19, 29, 43);
+    background-color: rgb(22, 34, 51);
+    font-family:Hero, Arial, Helvetica, sans-serif;
+    width: 1200px;
    
-    width: 1000px;
+    
+
 }
 .textcol1{
     color: white;
 }
 .textcol2{
     color: rgb(58, 58, 58);
+    font-size: 13px;
+    
+}
+.textcol3{
+    color: rgb(58, 58, 58); 
+    font-weight: 400;
 }
 .FChunk
 {
@@ -16,24 +25,58 @@ display:flex;
 justify-content: space-between;
 align-items: center;
 padding: 10px;
+margin-top: 20px;
+margin-bottom: 50px;
+margin-left: 110px;
+margin-right: 110px;
 }
 .SChunk{
     display: flex;
+    margin-bottom: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
 
 }
 .TChunk{
     background-color: white;
-    width: 1000px;
+    width: 1200px;
     display: flex;
     flex-direction: column;
     height: 300px;
 }
+.FoChunk
+{
+    background-color: rgb(212, 212, 212);
+    height: 120px;
+    display: flex;
+    padding: 100px;
+    font-size: 27px;
+    font-style: italic;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Text4ch{
+    display: flex;
+    justify-content: center;
+    font-weight:100;
+    
+}
+.signat1{
+    font-style:normal; 
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+    margin-right: 15px;
+    font-size: 20px;
+    
+}
    
 .link1
- {
-
+ {   
 display: flex;
 flex-direction:row;
+gap: 20px;
 }
 .Button1{
     color: white;
@@ -41,6 +84,7 @@ flex-direction:row;
     padding: 10px;;
     width: 100px;
     border-radius: 10px;
+   
     
 }
 .Box1{
@@ -55,11 +99,11 @@ flex-direction:row;
     display: flex;;
     justify-content: center;
     align-items: center;
-    border: solid 2px red;
+    
 }
 .box{
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
     border-radius: 20px;
     border: solid 3px rgb(80, 103, 207);
     display: flex;
@@ -69,7 +113,7 @@ flex-direction:row;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px; 
+    gap: 25px; 
 }
 .boxmain2{
     display: flex;
@@ -78,6 +122,6 @@ flex-direction:row;
    
 }
 .textimg{
-    margin-top: 140px;
+    margin-top: 120px;
     align-content: center;
 }
