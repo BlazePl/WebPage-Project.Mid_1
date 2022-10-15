@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(19, 29, 43);
+   
+    width: 1000px;
+}
+.textcol1{
+    color: white;
+}
+.textcol2{
+    color: rgb(58, 58, 58);
+}
+.FChunk
+{
+color: white;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+.SChunk{
+    display: flex;
+
+}
+.TChunk{
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+   
+.link1
+ {
+
+display: flex;
+flex-direction:row;
+}
+.Button1{
+    color: white;
+    background-color: rgb(12, 115, 212);
+    padding: 10px;;
+    width: 100px;
+    border-radius: 10px;
+    
+}
+.Box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    width: 500px;
+    height: 200px;
+}
+.center{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px red;
+}
+.box{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    border: solid 3px rgb(80, 103, 207);
+    display: flex;
+    flex-direction: row;
+}
+.boxmain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px; 
+}
+.boxmain2{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+   
+}
+.textimg{
+    margin-top: 140px;
+    align-content: center;
+}

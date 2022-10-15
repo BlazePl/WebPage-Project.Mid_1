@@ -1,0 +1,1 @@
+In this project I'm attempting to copy layout from The Odin Project. This lesson will teach usage of CSS/HTML from the course.
