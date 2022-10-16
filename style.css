@@ -1,10 +1,7 @@
 body {
     background-color: rgb(22, 34, 51);
     font-family:Hero, Arial, Helvetica, sans-serif;
-    width: 1200px;
-   
     
-
 }
 .textcol1{
     color: white;
@@ -12,7 +9,7 @@ body {
 .textcol2{
     color: rgb(58, 58, 58);
     font-size: 13px;
-    
+   
 }
 .textcol3{
     color: rgb(58, 58, 58); 
@@ -20,18 +17,19 @@ body {
 }
 .FChunk
 {
-color: white;
-display:flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px;
-margin-top: 20px;
-margin-bottom: 50px;
-margin-left: 110px;
-margin-right: 110px;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 110px;
+    margin-right: 110px;
+    scale: 100%;
 }
 .SChunk{
-    display: flex;
+    display:flex;
     margin-bottom: 100px;
     margin-left: 110px;
     margin-right: 110px;
@@ -39,10 +37,10 @@ margin-right: 110px;
 }
 .TChunk{
     background-color: white;
-    width: 1200px;
     display: flex;
     flex-direction: column;
     height: 300px;
+    scale: 100%;
 }
 .FoChunk
 {
@@ -53,8 +51,15 @@ margin-right: 110px;
     font-size: 27px;
     font-style: italic;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center; 
+}
+.FifChunk{
+    display: flex;
+    background-color: white;
+    scale: 100%;
+    height: 400px;
+
+
 }
 .Text4ch{
     display: flex;
@@ -68,15 +73,14 @@ margin-right: 110px;
     justify-content: flex-end;
     margin-top: 0;
     margin-right: 15px;
-    font-size: 20px;
-    
+    font-size: 20px;    
 }
    
 .link1
  {   
-display: flex;
-flex-direction:row;
-gap: 20px;
+    display: flex;
+    flex-direction:row;
+    gap: 20px;
 }
 .Button1{
     color: white;
@@ -92,8 +96,9 @@ gap: 20px;
     align-items: center;
     justify-content: center;
     background-color: gray;
-    width: 500px;
+    width: 800px;
     height: 200px;
+    scale: 100%;
 }
 .center{
     display: flex;;
@@ -124,4 +129,21 @@ gap: 20px;
 .textimg{
     margin-top: 120px;
     align-content: center;
+}
+.Boxfifth{
+    background-color: rgb(79, 148, 204);
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    width: 600px;
+    height: 120px;
+    margin: auto;
+    border-radius: 20px;
+    line-height: 0px;
+}
+.Buttonself{
+    margin: 30px;
+    
+
+
 }
