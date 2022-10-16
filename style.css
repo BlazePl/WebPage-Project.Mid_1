@@ -1,8 +1,12 @@
 body {
-    background-color: rgb(22, 34, 51);
+    background-color: rgb(19, 24, 31);
     font-family:Hero, Arial, Helvetica, sans-serif;
-    
 }
+section{
+    margin-left: 180px;
+    margin-right: 148px;
+} 
+
 .textcol1{
     color: white;
 }
@@ -15,57 +19,56 @@ body {
     color: rgb(58, 58, 58); 
     font-weight: 400;
 }
-.FChunk
+.FirstChunk
 {
     color: white;
+    background-color: rgb(22, 34, 51);
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 100px;
+    padding-top: 60px;
     margin-top: 20px;
-    margin-bottom: 60px;
-    margin-left: 110px;
-    margin-right: 110px;
-    scale: 100%;
-}
-.SChunk{
-    display:flex;
-    margin-bottom: 100px;
-    margin-left: 110px;
-    margin-right: 110px;
 
 }
-.TChunk{
+.SecondChunk{
+    background-color: rgb(22, 34, 51);
+    padding: 100px;
+    display:flex;
+
+
+}
+.ThirdChunk{
     background-color: white;
     display: flex;
     flex-direction: column;
     height: 300px;
-    scale: 100%;
+
 }
-.FoChunk
+.FourthChunk
 {
     background-color: rgb(212, 212, 212);
     height: 120px;
     display: flex;
     padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
     font-size: 27px;
     font-style: italic;
     flex-direction: column;
     justify-content: center; 
+   
 }
-.FifChunk{
+.FifthChunk{
     display: flex;
     background-color: white;
-    scale: 100%;
     height: 400px;
-
-
 }
 .Text4ch{
-    display: flex;
+    /* display: flex;
     justify-content: center;
     font-weight:100;
-    
+     */
 }
 .signat1{
     font-style:normal; 
@@ -87,9 +90,7 @@ body {
     background-color: rgb(12, 115, 212);
     padding: 10px;;
     width: 100px;
-    border-radius: 10px;
-   
-    
+    border-radius: 10px;  
 }
 .Box1{
     display: flex;
@@ -97,8 +98,7 @@ body {
     justify-content: center;
     background-color: gray;
     width: 800px;
-    height: 200px;
-    scale: 100%;
+    height: 200px
 }
 .center{
     display: flex;;
@@ -134,16 +134,13 @@ body {
     background-color: rgb(79, 148, 204);
     display: flex;
     align-items: center;
+    margin: auto;
     padding-left: 100px;
     width: 600px;
     height: 120px;
-    margin: auto;
     border-radius: 20px;
     line-height: 0px;
 }
 .Buttonself{
     margin: 30px;
-    
-
-
 }
